@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tema</title>
+</head>
+<body>
+    <h1 style="text-align:center"> Favorite Color</h1>
+	<form>
+		<select name="favcolor" id="favcolor">
+			<option value="Blue">Blue</option>
+			<option value="Yellow">Yellow</option>
+			<option value="Orange">Orange</option>
+			<option value="Red">Red</option>
+			<option value="Green">Green</option>
+                        
+		</select>
+		<button type="button" onclick="myFunction()">Submit</button>
+	</form>
+		<div id="txt"></div>
+	<script type="text/javascript">
+		function myFunction(){
+			p1=document.getElementById('txt');
+                        p1.innerHTML = document.getElementById("favcolor").value;
+                        switch (p1.innerHTML)
+                        {
+                         case "Blue":
+                             document.body.style.backgroundColor = "blue";
+                             break;
+                         case "Yellow":
+                             document.body.style.backgroundColor = "yellow";
+                             break;
+                         case "Orange":
+                             document.body.style.backgroundColor = "orange";
+                             break;
+                         case "Red":
+                             document.body.style.backgroundColor = "red";
+                             break;
+                         case "Green":
+                             document.body.style.backgroundColor = "green";
+                             break;
+                         default:
+                             alert("No color");
+			}
+                    }
+	</script>
+</body>
+</html>
