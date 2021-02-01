@@ -1,5 +1,5 @@
 # FavoriteColor
-<img src="FavoriteColor.jpg" alt="FavoriteColor Web"/>
+<img src="FavoriteColor.JPG" alt="FavoriteColor Web"/>
 # Some screenshots of the website created as homework.
-<img src="Blue.jpg" alt="Blue"/>
-<img src="Orange.jpg" alt="Orange"/>
+<img src="Blue.JPG" alt="Blue"/>
+<img src="Orange.JPG" alt="Orange"/>
